@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .main-container {
+        background: #F4F4F4;
+
+    }
+
+    .top-container {
+        background: #0000005b;
+        width: 100%;
+        height: 100%;
+    }
+
+    .top-container-btn {
+        background-color: #FFA12E;
+    }
+
+    .sec-container-boxe-1 {
+        background: linear-gradient(103.46deg, #FFFFFF 0.57%, #D1FAE5 97.06%);
+        color: #059669;
+
+    }
+
+    .sec-container-boxe-2 {
+        background: linear-gradient(100.1deg, rgba(255, 255, 255, 0.1) -11.68%, rgba(255, 161, 46, 0.15) 67.01%);
+        color: #FFA12E;
+    }
+
+    .sec-container-boxe-3 {
+        background: linear-gradient(97.4deg, #FFFFFF -8.95%, #FFDEDE 101.73%);
+        color: #C41230;
+
+    }
+
+    .boxes {
+        background: #FFFFFF;
+
+    }
+
+    .chat-members {
+        background: #F4F4F4;
+    }
+
+    .paid-mamber {
+        background: #ECFDF5;
+        color: #059669;
+
+    }
+
+    .pending-mamber {
+        background: #FFF8E7;
+        color: #FFA12E;
+    }
+
+    .table-tr-border {
+        border-bottom: 1px solid #8787874D;
+    }
+
+}
