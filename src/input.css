@@ -7,33 +7,65 @@
 @layer base {
     .main-container {
         background: #F4F4F4;
-
+        font-family: Lato;
     }
 
     .top-container {
-        background: #0000005b;
+        background: #000000ab;
         width: 100%;
-        height: 100%;
+        height: 120%;
+        border-radius: 10px;
+    }
+
+    .top-container h1 {
+        font-weight: 600;
+        font-size: 40px;
     }
 
     .top-container-btn {
         background-color: #FFA12E;
+        padding: 0 10px;
     }
 
     .sec-container-boxe-1 {
         background: linear-gradient(103.46deg, #FFFFFF 0.57%, #D1FAE5 97.06%);
         color: #059669;
+        border: 1px solid rgba(128, 128, 128, 0.233);
+    }
 
+    .sec-container-boxe-1 img {
+        background: #059669;
+        border-radius: 10px;
     }
 
     .sec-container-boxe-2 {
         background: linear-gradient(100.1deg, rgba(255, 255, 255, 0.1) -11.68%, rgba(255, 161, 46, 0.15) 67.01%);
         color: #FFA12E;
+        border: 1px solid rgba(128, 128, 128, 0.233);
+    }
+
+    .sec-container-boxe-2 img {
+        background: #FFA12E;
+        border-radius: 10px;
+
     }
 
     .sec-container-boxe-3 {
         background: linear-gradient(97.4deg, #FFFFFF -8.95%, #FFDEDE 101.73%);
         color: #C41230;
+        border: 1px solid rgba(128, 128, 128, 0.233);
+    }
+
+    .sec-container-boxe-3 img {
+        background: #C41230;
+        border-radius: 10px;
+
+    }
+
+    .member-dollar {
+        font-family: Lato;
+        font-weight: 500;
+        font-size: 60px;
 
     }
 
@@ -42,14 +74,32 @@
 
     }
 
+    .boxe-headings {
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+    }
+
     .chat-members {
         background: #F4F4F4;
+    }
+
+    .chat-members p {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .chat-members h3 {
+        font-weight: 700;
+        font-size: 20px;
     }
 
     .paid-mamber {
         background: #ECFDF5;
         color: #059669;
-
     }
 
     .pending-mamber {
@@ -57,8 +107,46 @@
         color: #FFA12E;
     }
 
+    .member-name {
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+
+    }
+
     .table-tr-border {
         border-bottom: 1px solid #8787874D;
+    }
+
+    .member-ava p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+    }
+
+    .group-meals h5 {
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+
+    .group-meals p {
+        font-weight: 400;
+        font-size: 12px;
+
+    }
+
+    .fz {
+        font-weight: 400;
+        font-size: 10px;
+
     }
 
 }
